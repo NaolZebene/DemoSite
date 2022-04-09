@@ -119,6 +119,7 @@ header .header-body h1{
 
 
 
+
 .section-one{
     display: flex;
     align-items: center;
@@ -242,7 +243,14 @@ header .header-body h1{
         flex-direction: column;
     }
 }
-
+@media (max-width:820px){
+    .section-two .section-two-image{
+        width: 100%;
+    }
+    .section-one .section-one-image{
+        width: 100%;
+    }
+}
 
 .contact-us{
 
